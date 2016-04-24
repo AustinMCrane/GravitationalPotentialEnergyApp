@@ -14,6 +14,7 @@
 		60650CA41CCD6E31003435CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60650CA31CCD6E31003435CB /* Assets.xcassets */; };
 		60650CA71CCD6E31003435CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60650CA51CCD6E31003435CB /* LaunchScreen.storyboard */; };
 		60650CB21CCD6E32003435CB /* PhysicsPotentialEnergyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60650CB11CCD6E32003435CB /* PhysicsPotentialEnergyTests.m */; };
+		60650CBD1CCD736E003435CB /* Potential Energy Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 60650CBC1CCD736E003435CB /* Potential Energy Picture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		60650CAD1CCD6E32003435CB /* PhysicsPotentialEnergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsPotentialEnergyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60650CB11CCD6E32003435CB /* PhysicsPotentialEnergyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsPotentialEnergyTests.m; sourceTree = "<group>"; };
 		60650CB31CCD6E32003435CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60650CBC1CCD736E003435CB /* Potential Energy Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Potential Energy Picture.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				60650C9B1CCD6E31003435CB /* AppDelegate.m */,
 				60650C9D1CCD6E31003435CB /* ViewController.h */,
 				60650C9E1CCD6E31003435CB /* ViewController.m */,
+				60650CBC1CCD736E003435CB /* Potential Energy Picture.png */,
 				60650CA01CCD6E31003435CB /* Main.storyboard */,
 				60650CA31CCD6E31003435CB /* Assets.xcassets */,
 				60650CA51CCD6E31003435CB /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 				TargetAttributes = {
 					60650C931CCD6E31003435CB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9CPRLWH7N7;
 					};
 					60650CAC1CCD6E32003435CB = {
 						CreatedOnToolsVersion = 7.3;
@@ -192,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60650CA71CCD6E31003435CB /* LaunchScreen.storyboard in Resources */,
+				60650CBD1CCD736E003435CB /* Potential Energy Picture.png in Resources */,
 				60650CA41CCD6E31003435CB /* Assets.xcassets in Resources */,
 				60650CA21CCD6E31003435CB /* Main.storyboard in Resources */,
 			);
@@ -343,10 +348,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhysicsPotentialEnergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OzDreams.PhysicsPotentialEnergy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -354,10 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhysicsPotentialEnergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OzDreams.PhysicsPotentialEnergy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
